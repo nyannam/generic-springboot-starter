@@ -2,8 +2,8 @@ package services;
 
 import org.springframework.stereotype.Service;
 
-import entities.City;
-import repositories.CityRepository;
+import data.entities.City;
+import data.repositories.CityRepository;
 
 @Service
 public class CityService extends ServiceBase<City> {

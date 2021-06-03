@@ -2,7 +2,7 @@ package mappers;
 
 import org.springframework.stereotype.Component;
 
-import entities.City;
+import data.entities.City;
 import models.APICity;
 
 @Component
