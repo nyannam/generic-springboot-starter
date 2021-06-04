@@ -11,6 +11,7 @@ public class CityValidator extends ValidatorBase<APICity> {
 	    @Override
 	    public boolean IsValidModel(APICity model) {
 	        if (model == null) return false;
+	        if (model.getName().isEmpty()) return false;
 	        return true;
 	    }
 }
